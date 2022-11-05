@@ -7,7 +7,7 @@
 body{
     background-color:  hsl(257, 40%, 49%);
    width: 1440px;
-    background-image: url('file:///C:/Users/welcome/Desktop/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg');
+    background-image: url('https://raw.githubusercontent.com/catherineisonline/huddle-landing-page-with-a-single-introductory-section-frontendmentor/904277386a543577f3b7111f97fbcf7da590644d/images/bg-desktop.svg');
 }
 #brand{
     margin-top: 40px;
@@ -27,7 +27,7 @@ body{
 
 }
 #image{
-    background-image: url('file:///C:/Users/welcome/Desktop/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/images/illustration-mockups.svg');
+    background-image: url('https://raw.githubusercontent.com/catherineisonline/huddle-landing-page-with-a-single-introductory-section-frontendmentor/904277386a543577f3b7111f97fbcf7da590644d/images/illustration-mockups.svg');
     background-repeat: no-repeat;
 }
  
