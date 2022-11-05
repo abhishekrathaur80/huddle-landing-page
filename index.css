@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    object-fit: contain;
+}
+
+body{
+    background-color:  hsl(257, 40%, 49%);
+   width: 1440px;
+    background-image: url('file:///C:/Users/welcome/Desktop/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/images/bg-desktop.svg');
+}
+#brand{
+    margin-top: 40px;
+    color: white;
+    margin-left: 200px;
+    font-weight: 600;
+}
+
+.section{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 500px;
+    width: 1400px;
+    margin-left: 200px;
+    margin-top: 55px;
+  
+
+}
+#image{
+    background-image: url('file:///C:/Users/welcome/Desktop/huddle-landing-page-with-single-introductory-section-master/huddle-landing-page-with-single-introductory-section-master/images/illustration-mockups.svg');
+    background-repeat: no-repeat;
+}
+ 
+.info{
+    margin-right: 350px;
+} 
+
+#title{
+    margin-left: 28px;
+    margin-top: 100px;
+    color: white;
+    font-weight: 550;
+}
+
+p{
+    margin-top: 30px;
+    margin-left:20px ;
+    color: white;
+    font-weight: 450;
+    font-size: large;   
+
+}
+
+button{
+    height: 40px;
+    width: 140px;
+    color: gray;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 40px;
+    border: 0px solid white;
+}
+ 
+.icon{
+    width: 150px;
+    display: flex;
+    justify-content: space-evenly;
+ 
+margin-left: 1300px;
+}
+
+button:hover{
+    background-color: magenta;
+    color: black;
+    transition: 0ms ease-in-out;
+    cursor: pointer;
+}
+
+@media (max-width:365px){
+    .section{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
